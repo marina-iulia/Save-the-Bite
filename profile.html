@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save The Bite - Profil Utilizator</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-leaf"></i> Save The Bite
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Acasă</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Despre Noi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recipes.html">Rețete Zero-Waste</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donate.html">Donații Alimentare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tips.html">Educație & Sfaturi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="community.html">Comunitate</a>
+                    </li>
+                </ul>
+                <a href="profile.html" class="user-profile-section">
+                    <div class="user-avatar">JD</div>
+                    <div class="user-info">
+                        <span class="user-name">John Doe</span>
+                        <span class="user-email">john.doe@email.com</span>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Header -->
+    <section class="profile-header">
+        <div class="container text-center">
+            <div class="profile-avatar-large">
+                <i class="fas fa-user"></i>
+            </div>
+            <h1>John Doe</h1>
+            <p class="lead">Membru din Ianuarie 2024</p>
+            <p><i class="fas fa-map-marker-alt me-2"></i>București, România</p>
+            
+            <div class="profile-stats">
+                <div class="profile-stat">
+                    <span class="number">12</span>
+                    <span class="label">Rețete Postate</span>
+                </div>
+                <div class="profile-stat">
+                    <span class="number">45</span>
+                    <span class="label">Donații</span>
+                </div>
+                <div class="profile-stat">
+                    <span class="number">128</span>
+                    <span class="label">Puncte</span>
+                </div>
+                <div class="profile-stat">
+                    <span class="number">5</span>
+                    <span class="label">Certificări</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="container">
+            <div class="row">
+                <!-- Left Column - Profile Info -->
+                <div class="col-lg-4 mb-4">
+                    <!-- Edit Profile Card -->
+                    <div class="card-custom mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-user-edit me-2"></i> Editează Profilul
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Nume și Prenume</label>
+                                    <input type="text" class="form-control-custom" value="John Doe">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" class="form-control-custom" value="john.doe@email.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Telefon</label>
+                                    <input type="tel" class="form-control-custom" value="+40 123 456 789">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Locație</label>
+                                    <input type="text" class="form-control-custom" value="București, România">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Despre Mine</label>
+                                    <textarea class="form-control-custom" rows="3">Pasionat de sustenabilitate și de reducerea risipei alimentare. Învăț mereu rețete noi!</textarea>
+                                </div>
+                                <button type="submit" class="btn-primary-custom w-100">Salvează Modificările</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Badges Card -->
+                    <div class="card-custom">
+                        <div class="card-header">
+                            <i class="fas fa-award me-2"></i> Certificări și Badges
+                        </div>
+                        <div class="card-body">
+                            <div class="text-center mb-3">
+                                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #FFD700, #FFA500); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+                                    <i class="fas fa-medal text-white"></i>
+                                </div>
+                                <p class="mt-2 fw-bold">Primul Doneator</p>
+                                <p class="text-muted small">Ai făcut prima ta donație</p>
+                            </div>
+                            <hr>
+                            <div class="text-center mb-3">
+                                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #4CAF50, #2E7D32); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+                                    <i class="fas fa-leaf text-white"></i>
+                                </div>
+                                <p class="mt-2 fw-bold">Eco Warrior</p>
+                                <p class="text-muted small">Ai salvat 50+ kg de alimente</p>
+                            </div>
+                            <hr>
+                            <div class="text-center mb-3">
+                                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #9C27B0, #7B1FA2); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <p class="mt-2 fw-bold">Chef Zero-Waste</p>
+                                <p class="text-muted small">Ai postat 10 rețete</p>
+                            </div>
+                            <hr>
+                            <div class="text-center">
+                                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #2196F3, #1565C0); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+                                    <i class="fas fa-users text-white"></i>
+                                </div>
+                                <p class="mt-2 fw-bold">Lider Comunitar</p>
+                                <p class="text-muted small">Ai 50+ interacțiuni</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Activity -->
+                <div class="col-lg-8">
+                    <!-- My Donations -->
+                    <div class="card-custom mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-hands-helping me-2"></i> Donează Alimentele Mele
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Data</th>
+                                            <th>Tip</th>
+                                            <th>Cantitate</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>15 Jan 2024</td>
+                                            <td>Produse de panificație</td>
+                                            <td>5 kg</td>
+                                            <td><span class="badge bg-success">Livrat</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>18 Jan 2024</td>
+                                            <td>Fructe și legume</td>
+                                            <td>8 kg</td>
+                                            <td><span class="badge bg-success">Livrat</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>22 Jan 2024</td>
+                                            <td>Alimente ambalate</td>
+                                            <td>12 kg</td>
+                                            <td><span class="badge bg-warning text-dark">În procesare</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>25 Jan 2024</td>
+                                            <td>Mâncare gătită</td>
+                                            <td>3 kg</td>
+                                            <td><span class="badge bg-success">Livrat</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="donate.html" class="btn btn-success">Vezi Toate Donatiile</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- My Recipes -->
+                    <div class="card-custom mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-book-open me-2"></i> Rețetele Mele
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="border rounded p-3">
+                                        <h6 class="text-success">Ciorbă de Legume Rămase</h6>
+                                        <p class="text-muted small mb-2"><i class="far fa-clock me-1"></i> 45 min | <i class="far fa-heart me-1"></i> 23</p>
+                                        <button class="btn btn-sm btn-outline-success">Editează</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="border rounded p-3">
+                                        <h6 class="text-success">Salată din Coji de Legume</h6>
+                                        <p class="text-muted small mb-2"><i class="far fa-clock me-1"></i> 20 min | <i class="far fa-heart me-1"></i> 18</p>
+                                        <button class="btn btn-sm btn-outline-success">Editează</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="border rounded p-3">
+                                        <h6 class="text-success">Gem din Coajă de Pepene</h6>
+                                        <p class="text-muted small mb-2"><i class="far fa-clock me-1"></i> 60 min | <i class="far fa-heart me-1"></i> 45</p>
+                                        <button class="btn btn-sm btn-outline-success">Editează</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="border rounded p-3">
+                                        <h6 class="text-success">Pâine Prăjită cu Legume</h6>
+                                        <p class="text-muted small mb-2"><i class="far fa-clock me-1"></i> 15 min | <i class="far fa-heart me-1"></i> 12</p>
+                                        <button class="btn btn-sm btn-outline-success">Editează</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="recipes.html" class="btn btn-success">Adaugă Rețetă Nouă</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- My Posts -->
+                    <div class="card-custom mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-comments me-2"></i> Postările Mele în Comunitate
+                        </div>
+                        <div class="card-body">
+                            <div class="forum-post mb-0">
+                                <div class="post-header">
+                                    <div class="post-avatar">JD</div>
+                                    <div class="post-info">
+                                        <h4>John Doe</h4>
+                                        <span>Azi, ora 10:30 • În Rețete</span>
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    <h5>Secretele mele pentru o bucătărie zero-waste</h5>
+                                    <p>După 2 ani de practică, am descoperit câteva trucuri simple care m-au ajutat enorm...</p>
+                                </div>
+                                <div class="mt-2">
+                                    <button class="btn btn-outline-success btn-sm me-2">
+                                        <i class="far fa-heart me-1"></i> 34 Like-uri
+                                    </button>
+                                    <button class="btn btn-outline-primary btn-sm">
+                                        <i class="far fa-comment me-1"></i> 8 Comentarii
+                                    </button>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="forum-post mb-0">
+                                <div class="post-header">
+                                    <div class="post-avatar">JD</div>
+                                    <div class="post-info">
+                                        <h4>John Doe</h4>
+                                        <span>Ieri, ora 16:45 • În Discuții Generale</span>
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    <h5>Cum am redus risipa cu 80% în familia mea</h5>
+                                    <p>Vreau să împărtășesc cu voi strategia care a funcționat pentru familia mea...</p>
+                                </div>
+                                <div class="mt-2">
+                                    <button class="btn btn-outline-success btn-sm me-2">
+                                        <i class="far fa-heart me-1"></i> 56 Like-uri
+                                    </button>
+                                    <button class="btn btn-outline-primary btn-sm">
+                                        <i class="far fa-comment me-1"></i> 15 Comentarii
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="community.html" class="btn btn-success">Vezi Toate Postările</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Settings -->
+                    <div class="card-custom">
+                        <div class="card-header">
+                            <i class="fas fa-cog me-2"></i> Setări Cont
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="d-flex justify-content-between align-items-center p-3 border rounded">
+                                        <div>
+                                            <h6 class="mb-0">Notificări Email</h6>
+                                            <small class="text-muted">Primești updates despre activități</small>
+                                        </div>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" checked>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="d-flex justify-content-between align-items-center p-3 border rounded">
+                                        <div>
+                                            <h6 class="mb-0">Newsletter</h6>
+                                            <small class="text-muted">Sfaturi și rețete săptămânale</small>
+                                        </div>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" checked>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="d-flex justify-content-between align-items-center p-3 border rounded">
+                                        <div>
+                                            <h6 class="mb-0">Vizibilitate Profil</h6>
+                                            <small class="text-muted">Profilul tău este public</small>
+                                        </div>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" checked>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="d-flex justify-content-between align-items-center p-3 border rounded">
+                                        <div>
+                                            <h6 class="mb-0">Mesaje Private</h6>
+                                            <small class="text-muted">Permite mesaje de la alți membri</small>
+                                        </div>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button class="btn btn-danger me-2">
+                                    <i class="fas fa-sign-out-alt me-1"></i> Deconectare
+                                </button>
+                                <button class="btn btn-outline-danger">
+                                    <i class="fas fa-trash me-1"></i> Șterge Contul
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Save The Bite</h4>
+                    <p>Împreună reducem risipa alimentară și construim un viitor mai sustenabil.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Link-uri Rapide</h4>
+                    <ul>
+                        <li><a href="index.html">Acasă</a></li>
+                        <li><a href="about.html">Despre Noi</a></li>
+                        <li><a href="recipes.html">Rețete Zero-Waste</a></li>
+                        <li><a href="community.html">Comunitate</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope me-2"></i> contact@savethebite.ro</li>
+                        <li><i class="fas fa-phone me-2"></i> +40 123 456 789</li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> București, România</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Save The Bite. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

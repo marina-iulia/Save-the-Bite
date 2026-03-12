@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save The Bite - Comunitate</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-leaf"></i> Save The Bite
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Acasă</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Despre Noi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recipes.html">Rețete Zero-Waste</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donate.html">Donații Alimentare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tips.html">Educație & Sfaturi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="community.html">Comunitate</a>
+                    </li>
+                </ul>
+                <a href="profile.html" class="user-profile-section">
+                    <div class="user-avatar">JD</div>
+                    <div class="user-info">
+                        <span class="user-name">John Doe</span>
+                        <span class="user-email">john.doe@email.com</span>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero-section" style="padding: 60px 0;">
+        <div class="hero-content">
+            <div class="container">
+                <h1>Comunitatea Noastră</h1>
+                <p>Conectează-te cu alți oameni pasionați de reducerea risipei alimentare</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="container">
+            <!-- Forum Categories -->
+            <div class="row mb-5">
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="text-center p-4 bg-success rounded shadow-sm text-white">
+                        <i class="fas fa-comments fa-2x mb-2"></i>
+                        <h5>Discuții Generale</h5>
+                        <p class="mb-0">128 postări</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="text-center p-4 bg-warning rounded shadow-sm text-dark">
+                        <i class="fas fa-utensils fa-2x mb-2"></i>
+                        <h5>Rețete</h5>
+                        <p class="mb-0">256 postări</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="text-center p-4 bg-info rounded shadow-sm text-white">
+                        <i class="fas fa-hands-helping fa-2x mb-2"></i>
+                        <h5>Voluntariat</h5>
+                        <p class="mb-0">64 postări</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-3">
+                    <div class="text-center p-4 bg-danger rounded shadow-sm text-white">
+                        <i class="fas fa-question-circle fa-2x mb-2"></i>
+                        <h5>Întrebări</h5>
+                        <p class="mb-0">89 postări</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Create Post Button -->
+            <div class="text-center mb-4">
+                <button class="btn-primary-custom" data-bs-toggle="modal" data-bs-target="#createPostModal">
+                    <i class="fas fa-plus-circle me-2"></i> Creează o Postare Nouă
+                </button>
+            </div>
+
+            <!-- Forum Posts -->
+            <h2 class="section-title">Postări Recente</h2>
+            
+            <!-- Post 1 -->
+            <div class="forum-post">
+                <div class="post-header">
+                    <div class="post-avatar">AM</div>
+                    <div class="post-info">
+                        <h4>Ana Mihai</h4>
+                        <span>Azi, ora 14:30 • În Discuții Generale</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <h5>Am reușit să reduc risipa alimentară cu 70% în ultimul an!</h5>
+                    <p>Dragi prieteni, vreau să împărtășesc cu voi realizarea mea. De când am început să planific mesele și să folosesc rețetele de pe acest site, am reușit să reduc risipa alimentară a familiei mele cu 70%! 🌱</p>
+                    <p>Câteva sfaturi care au funcționat pentru mine:</p>
+                    <ul>
+                        <li>Faceam lista de cumpărături în funcție de rețetele planificate</li>
+                        <li>Am investit în containere de stocare de calitate</li>
+                        <li>Am învățat să citesc etichetele corect</li>
+                        <li>Congelez resturile pentru a le folosi ulterior</li>
+                    </ul>
+                    <p>Voi ce strategii ați folosit?</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-outline-success btn-sm me-2">
+                        <i class="far fa-heart me-1"></i> 45 Like-uri
+                    </button>
+                    <button class="btn btn-outline-primary btn-sm me-2">
+                        <i class="far fa-comment me-1"></i> 12 Comentarii
+                    </button>
+                    <button class="btn btn-outline-secondary btn-sm">
+                        <i class="fas fa-share me-1"></i> Distribuie
+                    </button>
+                </div>
+            </div>
+
+            <!-- Post 2 -->
+            <div class="forum-post">
+                <div class="post-header">
+                    <div class="post-avatar">PC</div>
+                    <div class="post-info">
+                        <h4>Petru Constantinescu</h4>
+                        <span>Azi, ora 11:15 • În Voluntariat</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <h5>Eveniment de donare de alimente - Weekendul acesta</h5>
+                    <p>Salutare, comunitate! 🏃</p>
+                    <p>Organizăm un eveniment de donare de alimente sâmbătă, în Parcul Herăstrău, între orele 10:00 - 16:00.</p>
+                    <p>Aveam nevoie de voluntari pentru:</p>
+                    <ul>
+                        <li>Sortarea alimentelor donate</li>
+                        <li>Asistență la punctele de colectare</li>
+                        <li>Distribuirea de materiale informative</li>
+                    </ul>
+                    <p>Cine dorește să se alăture, vă rog să îmi scrieți în privat sau să lăsați un comentariu! Fiecare mână de ajutor contează! 💚</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-outline-success btn-sm me-2">
+                        <i class="far fa-heart me-1"></i> 78 Like-uri
+                    </button>
+                    <button class="btn btn-outline-primary btn-sm me-2">
+                        <i class="far fa-comment me-1"></i> 23 Comentarii
+                    </button>
+                    <button class="btn btn-outline-secondary btn-sm">
+                        <i class="fas fa-share me-1"></i> Distribuie
+                    </button>
+                </div>
+            </div>
+
+            <!-- Post 3 -->
+            <div class="forum-post">
+                <div class="post-header">
+                    <div class="post-avatar">IM</div>
+                    <div class="post-info">
+                        <h4>Ion Marinescu</h4>
+                        <span>Ieri, ora 18:45 • În Rețete</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <h5>Rețeta zilei: Gem de coajă de pepene</h5>
+                    <p>Bună ziua! Am descoperit o rețetă fantastică care folosește ceea ce majoritatea aruncă: coaja de pepene! 🍉</p>
+                    <p><strong>Ingrediente:</strong></p>
+                    <ul>
+                        <li>Coaja de la 2 pepeni</li>
+                        <li>500g zahăr</li>
+                        <li>Zeama de la 1 lămâie</li>
+                        <li>1 linguriță vanilie</li>
+                    </ul>
+                    <p><strong>Mod de preparare:</strong></p>
+                    <p>Se taie coaja cubulețe, se pune la fiert cu zahărul și zeama de lămâie. Se lasă pe foc mic până se îngroașă. La final se adaugă vanilia. Se pune în borcane sterilizate.</p>
+                    <p>Este delicios pe pâine sau ca umplutură pentru plăcinte! 🌟</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-outline-success btn-sm me-2">
+                        <i class="far fa-heart me-1"></i> 92 Like-uri
+                    </button>
+                    <button class="btn btn-outline-primary btn-sm me-2">
+                        <i class="far fa-comment me-1"></i> 18 Comentarii
+                    </button>
+                    <button class="btn btn-outline-secondary btn-sm">
+                        <i class="fas fa-share me-1"></i> Distribuie
+                    </button>
+                </div>
+            </div>
+
+            <!-- Post 4 -->
+            <div class="forum-post">
+                <div class="post-header">
+                    <div class="post-avatar">LB</div>
+                    <div class="post-info">
+                        <h4>Laura Bălan</h4>
+                        <span>Ieri, ora 09:20 • În Întrebări</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <h5>Cum să păstrezi legumele proaspete mai mult timp?</h5>
+                    <p>Hei, am o întrebare pentru voi! 🥕</p>
+                    <p>Recent am început să cumpăr mai multe legume proaspete pentru a mânca mai sănătos, dar mereu se strică înainte să apuc să le folosesc.</p>
+                    <p>Specialist sunt pentru:</p>
+                    <ul>
+                        <li>Morcovi</li>
+                        <li>Broccoli</li>
+                        <li>Țelină</li>
+                        <li>Ardei</li>
+                    </ul>
+                    <p>Aveți sfaturi despre cum să le păstrez proaspete mai mult timp? Vă mulțumesc anticipat! 🙏</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-outline-success btn-sm me-2">
+                        <i class="far fa-heart me-1"></i> 15 Like-uri
+                    </button>
+                    <button class="btn btn-outline-primary btn-sm me-2">
+                        <i class="far fa-comment me-1"></i> 8 Comentarii
+                    </button>
+                    <button class="btn btn-outline-secondary btn-sm">
+                        <i class="fas fa-share me-1"></i> Distribuie
+                    </button>
+                </div>
+            </div>
+
+            <!-- Post 5 -->
+            <div class="forum-post">
+                <div class="post-header">
+                    <div class="post-avatar">GT</div>
+                    <div class="post-info">
+                        <h4>Gheorghe Tomescu</h4>
+                        <span>Acum 2 zile • În Discuții Generale</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <h5>Inițiativa "Zero Waste" la locul de muncă</h5>
+                    <p>Salutare tuturor! 🏢</p>
+                    <p>Vreau să vă povestesc despre o inițiativă pe care am lansat-o la biroul unde lucrez. Am început un program "Zero Waste" unde:</p>
+                    <ul>
+                        <li>Colegii aduc mâncare de acasă în recipienti reutilizabili</li>
+                        <li>Avem un frigider dedicat pentru produsele care expira curând</li>
+                        <li>Organizăm lunar o zi de donare</li>
+                        <li>Compostăm resturile organice</li>
+                    </ul>
+                    <p>În doar 3 luni, am redus gunoiul biroului cu 60%! Este fantastic ce putem realiza când lucrăm împreună! 💪</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-outline-success btn-sm me-2">
+                        <i class="far fa-heart me-1"></i> 112 Like-uri
+                    </button>
+                    <button class="btn btn-outline-primary btn-sm me-2">
+                        <i class="far fa-comment me-1"></i> 34 Comentarii
+                    </button>
+                    <button class="btn btn-outline-secondary btn-sm">
+                        <i class="fas fa-share me-1"></i> Distribuie
+                    </button>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="text-center mt-5">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Anterior</a>
+                        </li>
+                        <li class="page-item active"><a class="page-link bg-success border-success" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link text-success" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link text-success" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link text-success" href="#">Următorul</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Create Post Modal -->
+    <div class="modal fade" id="createPostModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title"><i class="fas fa-plus-circle me-2"></i>Creează o Postare Nouă</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Titlu</label>
+                            <input type="text" class="form-control-custom" placeholder="Introdu titlul postării tale">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Categorie</label>
+                            <select class="form-control-custom">
+                                <option>Discuții Generale</option>
+                                <option>Rețete</option>
+                                <option>Voluntariat</option>
+                                <option>Întrebări</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Conținut</label>
+                            <textarea class="form-control-custom" rows="6" placeholder="Scrie conținutul postării tale..."></textarea>
+                        </div>
+                        <div class="text-end">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Anulează</button>
+                            <button type="submit" class="btn-primary-custom ms-2">Publică</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Save The Bite</h4>
+                    <p>Împreună reducem risipa alimentară și construim un viitor mai sustenabil.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Link-uri Rapide</h4>
+                    <ul>
+                        <li><a href="index.html">Acasă</a></li>
+                        <li><a href="about.html">Despre Noi</a></li>
+                        <li><a href="recipes.html">Rețete Zero-Waste</a></li>
+                        <li><a href="community.html">Comunitate</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope me-2"></i> contact@savethebite.ro</li>
+                        <li><i class="fas fa-phone me-2"></i> +40 123 456 789</li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> București, România</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Save The Bite. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
